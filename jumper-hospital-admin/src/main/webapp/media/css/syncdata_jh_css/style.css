@@ -1,0 +1,335 @@
+/*内容共同的css*/
+body{behavior:url("../../iamges/csshover.htc");}
+
+#top{
+	/*background-color: red;*/
+	/* border: 1px solid #ddd; */
+	overflow: hidden;
+	width: 100%;
+}
+#detail {
+	border: 1px solid #ddd;
+	overflow: hidden;
+	margin: 20px 20px 0 20px;
+        _zoom:1;
+}
+#user {
+	height: 40px;
+	width: 100%;
+	background-color: #dff2fd;
+	line-height: 40px;
+	padding: 0 15px;
+}
+#user img {
+	width: 38px;
+    right: 191px;
+    top: 180px;
+    position: absolute;
+}
+#user span {
+    margin-left: 5px;
+    float: left;
+    font-size: 16px;
+}
+#all ,#two  {
+	padding: 4px 0;
+    overflow: hidden;
+    _zoom:1;
+}
+#all li ,#two li{
+	float: left;
+	margin-left:20px;
+	padding: 4px 0;
+    line-height: 28px;;
+}
+#all li input ,#two li input{
+	height: 20px;
+	padding-left: 6px;
+	font-size: 12px;
+	font-family: 宋体;
+	color: #666;
+	line-height: 14px;
+}
+#ul_table{
+	padding: 20px 0 0 20px;
+	overflow: hidden;
+    _zoom:1;
+}
+#ul_table li{
+	cursor: pointer;
+	float:left ;
+	font-size: 16px;
+	height: 40px;
+	width: 100px;
+	display: block;
+	line-height: 40px;
+	margin-right:4px;
+	text-align: center;
+}
+#ul_table li:hover{
+	background: #eee;
+}
+/* #ul_table .control_li {
+	background: url(../../images/1.png);
+} */
+#table,#table2{
+	border:1px solid #ddd;
+	overflow:hidden;
+	margin:20px;
+    _zoom:1;
+}
+
+#some{
+    background: url("../../../media/image/syncdata_img/1.png");
+    padding:0 5px;
+	height: 40px;
+    font-family: "Microsoft YaHei UI";
+}
+
+#control{
+	width: 97%;
+    height: 400px;
+    margin: 18px 4px;
+/*    display: none;*/
+	
+}
+#control #container {
+    width: 100%;
+    height: 420px;
+	
+}
+#flood{
+	      padding-top: 20px;
+    width: 75.76%;
+    height: 64px;
+    background: #fff;
+    position: absolute;
+    left: 11%;
+    top: 680px;
+}
+.flood_text{
+	width:392px;
+	margin: 0 auto;
+}
+#flood ul{
+	width: 252px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#flood ul li{
+	float: left;
+	font-family: 宋体;
+	font-size: 14px;
+	color: #666;
+}
+#flood ul li:nth-child(1) span{
+	display: inline-block;
+	width: 45px;
+	height: 20px;
+	background: url("../../images/line.png") no-repeat;
+}
+#flood ul li:nth-child(1){
+	margin-right: 50px;
+ }
+#flood ul li:nth-child(2) span{
+	display: inline-block;
+	width: 45px;
+	height: 20px;
+	background: url("../../images/line.png") no-repeat -45px;
+}
+#flood p{
+	float: left;
+	width: 350px;
+	color: #999;
+	margin-left: 100px;
+}
+#box_show {
+    float: left;
+    width: 100%;
+   /* height: 580px;*/
+}
+#box {
+    width: 100%;margin-top: 10px;
+    /*height: 300px;*/
+  
+}
+#time {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+#time  li {
+	float: left;
+    line-height: 50px;
+	width: 16%;
+	text-align: center;
+}
+
+.laydate-icon{
+	height: 28px;
+	border: 1px #909baf solid;
+	color: #909baf;
+	padding-left: 6px;
+
+}
+.img_1 {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin: 20px 20px;
+}
+.contentChart{
+    width: 92%;
+    height: 310px;
+    margin-top: 20px;
+}
+.oyLabel{
+    width: 2%;
+    height: 306px;
+      margin: 8px 12px;
+}
+
+.oxLabel{
+        width: 92.5%;
+    margin: 1px 65px;
+}
+#detail .panel-head ul{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    border-bottom:1px solid #ededed;
+	padding:0 20px;
+}
+.panel-head ul li{
+	list-style: none;
+float: left;
+line-height: 50px;
+margin-right: 7%;
+}
+.panel-head ul li img{
+	width:40px;
+	height:40px;
+	margin-top: 6px;
+}
+.heatTimeLabel{
+	height: 34px;
+	line-height: 34px;
+	text-align: left;
+	margin: 0px 0px 0px 40px;
+	padding-bottom: 10px;
+}
+.heatTimeLabel button{
+	float: right;
+}
+.item-table{
+	text-align: center;
+}
+.item-table th{
+	text-align: center;
+}
+.item-table td{
+	font-size: 14px;
+	vertical-align: middle!important;
+}
+.operate-btn{
+	margin-top: 20px;
+	text-align: center;
+}
+.chart1 {
+	position: relative;
+    width: 100%;
+   /*  height: 600px; */
+  
+}
+#print-icon {
+	background-size: 24%;
+    float: right;
+    color: black;
+    text-decoration: none;
+    height: 32px;
+    line-height: 39px;
+    width: 164px;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: lighter;
+    background-position: 25px -3px;
+}
+#print-icon img{
+	width: 36px;
+    margin: 36px -37px;
+}
+.icon-span {
+    /*background:url("../../images/5.png");*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/styles/images/bg.jpg',sizingMethod='scale');
+    background-repeat: no-repeat;
+    width: 50px;
+}
+#page_ui{
+    /* width: 500px; */
+    float: right;
+    margin: 10px 2px;
+}
+#page_ui li{
+    float: left;
+    padding: 2px 8px;
+    border: 1px solid #cccccc;
+    margin: 14px 4px;
+}
+#page_ui input{
+    float: left;
+    padding: 2px 8px;
+    border: 1px solid #cccccc;
+    margin: 14px 4px;
+    width: 30px;
+    height: 23px;
+}
+#page_ui li:hover{
+    background: #ebebeb;
+}
+#box ul {
+	cursor: pointer; 
+}
+.clearFix{
+	clear:both;
+	height:0;
+	line_height:0;
+	font-siez:0;
+	margin:0;
+	padding:0;
+}
+#box table {
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+#box table thead th {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    height: 40px;
+}
+#box table td {
+    color: #858585;
+    padding: 6px;
+    text-align: center;
+    border-right: 1px solid #ebebeb;
+    font-size: 14px;
+    border: 0px;
+}
+.current{border-bottom:3px solid #3998DA;color:#3998DA;}
+.calender_btn2 input{width: 80px;margin-top:3px; padding:0 5px;}
+#box table td a{ color:#3998DA;}
+#box table td a:hover{ color:#06C;}
+
+.tabcolor{
+	border-bottom: 3px solid #3998DA;
+    color: #3998DA;
+    font-family: 微软雅黑;
+}
+.looktype{
+	  background: #2089e2!important;
+	  color:#FFF!important;
+}

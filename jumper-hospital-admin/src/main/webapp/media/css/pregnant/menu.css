@@ -1,0 +1,94 @@
+.page-sidebar.navbar-collapse {
+    max-height: none !important;
+    padding: 0;
+}
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.page-sidebar {
+    background-color: #fafafa;
+    position: absolute;
+    width: 225px;
+}
+.page-sidebar-menu {
+	border-top: 1px solid #e2e2e2;
+	background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+.page-sidebar-menu:first-child {
+	border: none;
+}
+.page-sidebar-menu > li {
+	border-top: 1px solid #e2e2e2;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+ul.page-sidebar-menu > li > a:hover, ul.page-sidebar-menu > li:hover > a {
+    background: #eee;
+}
+ul.page-sidebar-menu > li > a {
+    color: #000 !important;
+    font-weight: 400;
+}
+.page-sidebar-menu > li > a {
+    display: block;
+    position: relative;
+    margin: 0;
+    border: 0px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+.open>a {
+    outline: 0;
+}
+.page-sidebar-menu > li > ul.sub-menu {
+    list-style: none;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.page-sidebar-menu > li > ul.sub-menu > li {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 1px !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a {
+    border-top: 0px !important;
+}
+ul.page-sidebar-menu ul.sub-menu > li > a {
+    font-weight: 400 !important;
+    color: #333 !important;
+}
+ul.page-sidebar-menu ul.sub-menu > li.active > a,
+ul.page-sidebar-menu ul.sub-menu > li > a:hover {
+	background: #ff7ea5 !important;
+	color: #fff !important; 
+}
+ul.page-sidebar-menu > li.active > a,
+ul.page-sidebar-menu > li > a:hover {
+	background: #ff7ea5 !important;
+	color: #fff !important; 
+}
+.page-sidebar-menu > li > ul.sub-menu > li > a {
+	padding-left: 40px !important;
+    display: block;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    background: none;
+}
+

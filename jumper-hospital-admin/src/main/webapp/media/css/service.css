@@ -1,0 +1,74 @@
+.panel-head{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #eee;
+}
+.panel-title{
+	border-left: 3px solid #FF779F;
+	margin-top: 10px;
+}
+.panel-title > span{
+	font-size: 14px;
+	margin-left: 10px;
+}
+.instraction{
+	margin: 10px 0px 0px 12px;
+}
+.panel-title-both > .both-left{
+	border-left: 3px solid #FF779F;
+}
+.panel-title-both > .both-left > span{
+	font-size: 14px;
+	margin-left: 10px;
+}
+.panel-title-both > .both-right > button{
+	color: #FF779F;
+}
+.panel-title-both > .both-right > button:hover{
+	color: #DE3A6A;
+}
+.panel-detail > ul > li{
+	list-style: none;
+	float: left;
+	margin-right: 25px;
+}
+.panel-detail > ul > li > .service-panel{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	width: 100px;
+	margin-top: 8px;
+	background: #E7E7E7;
+}
+.panel-detail > ul > li > .service-edit{
+	display: none;
+	float: right;
+	margin-top: -65px;
+}
+.panel-detail > ul > li > .service-edit > button > i{
+	color: grey;
+}
+.panel-btn{
+	text-align: center;
+	margin: 20px 0px;
+}
+.time-setting{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*院内胎心权限  */
+*{margin: 0px; padding: 0px;}
+.box{width: 390px; height: 146px; margin-left: 75px; border: 1px solid rgba(228, 228, 228, 1);overflow: hidden;}
+.boxMargin{ margin-right: 25px;}
+.box .bIcon{width: 63px; height: 63px; overflow: hidden;    margin: 10px 15px 0 10px;}
+.bIcon img{ width: 100%; height: 100%;}
+.showTitle{font-size: 12px; color: #333333; margin-top: 10px;width: 286px;}
+.showTitle h3{margin-bottom: 5px;font-size: 14px;}
+.showTitle .showMessage{word-break: break-all; overflow: hidden;}
+.fl{float: left;}
+.clear {clear:both; margin:0px; padding:0px;}
+a {text-decoration:none; cursor:pointer;}
+a:hover{ text-decoration:none;}
+.subA{ display:block;width:80px; height:30px;margin-top: 18px; line-height:30px;font-size: 14px; text-align: center; border-radius: 5px;  background-color: rgba(22, 155, 213, 1);color: #ffffff;}
+.aActive{background-color: rgba(153, 153, 153, 1);}

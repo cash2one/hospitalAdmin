@@ -1,0 +1,153 @@
+/*表头的css*/
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;	
+}
+#menu {display:block;}
+#nav {display:block;}
+#nav .mainlevel {
+	float: left;
+	background: #FFFFFF;
+	text-align: center;
+	display: block;
+	width: 6%;
+	height: 40px;
+	border-radius: 4px;
+	color: #666f80;
+	margin-bottom: 20px;
+	margin-top: 25px;
+
+}
+#nav .mainlevel a {
+	color: black;
+	text-decoration:none;
+	line-height:40px;
+	height:40px; text-align:center;
+	background: rgb(246, 255, 255);
+	/*background:url("images/nav_BGimg.png") repeat-x ;*/
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	-moz-border-top-left-radius: 4px ;
+	-moz-border-top-right-radius: 4px;
+	-o-border-top-left-radius: 4px ;
+	-o-border-top-right-radius: 4px;
+	-ms-border-top-left-radius: 4px ;
+	-ms-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px ;
+	-webkit-border-top-right-radius: 4px;
+	display:block;
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+
+#nav .mainlevel a:hover {text-decoration:none; background:#eee  0 0 repeat-x;}
+#nav .mainlevel ul {position:absolute; display:none;}
+#nav .mainlevel li {float:left; background:#E4D8CF;}
+#nav .mainlevel li a {padding:0 12px; line-height:24px; height:24px; display:block; }
+#nav .mainlevel li a:hover {color:#3f240e; text-decoration:none; background:#CED7E0  0 0 repeat-x;}
+#nav  li.mainlevel.active a {border-bottom: 3px solid #ff7ea5;color: #ff7ea5;font-weight: 400; }
+#nav li a em/*input an em tag as a space*/ {padding:0 3px;}
+.laydate-icon{
+	height: 28px;
+	border: 1px #909baf solid;
+	color: #909baf;
+	padding-left: 6px;
+
+}
+.container {
+
+}
+#calendar {
+    font-size: 12px;
+	float: right;
+    width: 700px;
+}
+/*#calendar .calender_btn,#calendar .calender_btn2{*/
+    /*overflow: hidden;*/
+    /*_zoom:1;*/
+/*}*/
+#calendar .calender_btn li{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ff7ea5;
+    color: #333333;
+    cursor: pointer;
+    float: left;
+    line-height: 18px;
+    margin: 9px 4px 0 0;
+    padding: 2px;
+    text-align: center
+}
+#calendar .calender_btn2 li{
+    float: left;
+}
+#calendar .calender_btn2 li{
+    margin-top: 12px;
+}
+#calendar .table{
+    margin: 16px 0 0 0;
+    width:400px;
+    float: right;
+    line-height: 20px;
+}
+#calendar .table input,#calendar .table select{
+    line-height: 16px;
+
+}
+
+#calendar .table li{
+    margin-right: 4px;
+	float:left;
+
+}
+
+#calendar input {
+	overflow: hidden;
+    padding: 0;
+
+}
+.calendar select {
+	overflow: hidden;
+}
+
+
+#some_name {
+	float: left;
+	font-size: 18px;
+	color: #333333;
+	line-height: 40px;
+}
+#box table thead th{
+    background:#f3f3f3;
+}
+
+#box table {
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+#box table tr {
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+#box table tr:hover{ background: #f1f1f1;zoom:1;}
+#box table tr.hover{ background: #f1f1f1;zoom:1;}
+.tr_bg2{background: rgb(128, 168, 248);color: #ffffff;}
+.tr_bg{ background: #6cdbff;}
+
+@media screen and (max-width: 600px) {
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

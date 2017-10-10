@@ -1,0 +1,233 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-width:1920px;
+}
+.contentChart{
+    width:560px;
+    height:210px;
+}
+.oyLabel{
+    width: 25px;
+    height: 210px;
+    margin-top: 6px;
+}
+.oxLabel{
+    width: 560px;
+    height: 25px;
+    margin-left: 35px;
+}
+.uterusYLabel{
+	width: 25px;
+    height: 100px;
+    margin-top: 0px;
+    border:none;
+}
+.uterusChart{
+	width:560px;
+    height:100px;
+    margin-top: 0px;
+    border:none;
+}
+table{
+	width: auto;
+	margin-top: 20px;
+	border-collapse:separate!important;
+	border-spacing: 10px!important;
+	margin:0;
+	padding:0;
+	float:right;
+}
+table tr{
+	height : 260px;
+}
+table tr td{
+	border: 1px solid #eee;
+}
+td div ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	text-align: center;
+	background-color: #eee;
+}
+td div ul li{
+	float: left;
+	width: 14%;
+}
+.badge {
+    font-size: 14px !important;
+    font-weight: 600;
+    text-align: center;
+    background-color: #5AB33F;
+    color:black;
+    height: 30px;
+    padding: 8px 12px 8px 12px;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 15px !important;
+    text-shadow: none !important;
+    text-align: center;
+    vertical-align: middle;
+}
+.badge-danger{
+	font-size: 14px !important;
+    font-weight: 600;
+    text-align: center;
+    background-color: red;
+    color: white;
+    height: 30px;
+    padding: 8px 12px 8px 12px;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 15px !important;
+    text-shadow: none !important;
+    text-align: center;
+    vertical-align: middle;
+}
+.value-blod{
+	font-size: 20px;
+    font-weight: bold;
+    color: rgb(21, 68, 218);	
+}
+.danger-user{
+	float:left;
+	width:85px;
+	margin-top: 10px;
+    margin-left: 4px;
+}
+.danger-user ul{
+	list-style:none;
+	padding:10px 0px 0px 10px;
+}
+.danger-ul li{
+	height: 40px;
+	margin-left: 10px;
+}
+
+/** 分页部分 **/
+.pager-container{
+	margin-top: 15px;	
+}
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+}
+.pagination ul {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.pagination ul>li {
+	display: inline;
+}
+.pagination ul>li>a, .pagination ul>li>span {
+	float: left;
+	padding: 4px 12px;
+	line-height: 20px;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-left-width: 0;
+}
+.pagination ul>.disabled>span, .pagination ul>.disabled>a, .pagination ul>.disabled>a:hover, .pagination ul>.disabled>a:focus {
+	color: #999;
+	cursor: default;
+	background-color: transparent;
+}
+.pagination ul>li:first-child>a, .pagination ul>li:first-child>span {
+	border-left-width: 1px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-topleft: 4px;
+}
+.pagination ul>.active>a, .pagination ul>.active>span {
+	color: red;
+	cursor: default;
+	background-color: #f5f5f5;
+}
+table td{
+	font-size:13px;	
+}
+
+.clearFix{
+	clear:both;
+	height:0;
+	line_height:0;
+	font-siez:0;
+	margin:0;
+	padding:0;
+}
+
+/** 分页样式 **/
+.dataTables_info{
+	float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.dataTables_paginate{
+	height: 30px;	
+}
+
+
+
+.detail-panel .contentChart{
+    width:1200px;
+    height:360px;
+    margin-top: 20px;
+    border:none;
+    /**border: 1px solid #DADADA;**/
+}
+.detail-panel .oyLabel{
+    width: 25px;
+    height: 360px;
+    margin-top: 20px;
+    border:none;
+}
+.detail-panel .oxLabel{
+    width: 1200px;
+    height: 25px;
+    margin-left: 35px;
+    border:none;
+}
+.detail-panel .uterusYLabel{
+	width: 25px;
+    height: 160px;
+    margin-top: 0px;
+    border:none;
+}
+.detail-panel .uterusChart{
+	width:1200px;
+    height:160px;
+    margin-top: 0px;
+    border:none;
+}
+.panel-head ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	background-color: #eee;
+}
+.panel-head ul li{
+	float: left;
+	width: 14%;
+}

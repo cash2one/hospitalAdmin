@@ -1,0 +1,76 @@
+*{font-size: 14px;}
+#windowBody{width: 560px; height: 600px; margin: 0 auto; background-color: #ffffff;}
+.windowTitle{ height: 49px; line-height: 49px; font-size: 16px; color: #404040; width: 100%; border-bottom: 1px solid #dfdfdf;}
+.windowTitle .titleLeft{ width: 530px; text-align: center;}
+.windowTitle a{width:12px; height:12px; margin:18px 14px 0 0;background: url(../img/imIcon.png) no-repeat -18px 0px;}
+
+.centerBox{}
+.centerBox .centerLeft{width: 560px; height: 550px;}
+.centerLeft #imMessageBox{ width: 100%; height: 404px; border-bottom: 1px solid #DFDFDF;overflow: auto;}
+
+.centerLeft .imgMessage{ height: 35px;border-bottom: 1px solid #DFDFDF;}
+.imgMessage .imga{width: 21px; height: 18px; margin: 9px 0 0 10px; background: url(../img/imIcon.png) no-repeat -64px 0px;}
+.imgMessage .imgInput{width: 28px; position: relative;left: -26px;top: 8px; opacity: 0; cursor: pointer;}
+.imgMessage .xxjl{ line-height: 35px; font-size: 14px; color: #404040; margin-right: 10px;}
+.imgMessage .xxjl::before{content:"";display: inline-block;*display: inline;*zoom: 1; width: 17px; height: 17px; position: relative;top: 3px;right: 6px; background: url(../img/imIcon.png) no-repeat -37px 0px;}
+
+.sendMessageInput{ height: 109px; position: relative;}
+.sendMessageInput textarea{ width: 550px; height: 99px;margin: 10px 0 0 10px;border: none; outline: none; background-color: #FFFFFF;}
+.sendMessageInput .sendMessageBotton{ width: 65px; height: 30px; line-height: 30px; background-color: #ff7ea5; border-radius: 6px; position: absolute; right: 9px; bottom: 14px; font-size: 14px; color: #FFFFFF; text-align: center;}
+
+.centerRight{width: 338px; height: 550px; position: relative;}
+.centerRight .messageLs{display: none;}
+.centerRight .centerShowImg{width: 100%; height: 100%; position: absolute; top: 0px; left: 0px;}
+.centerShowImg img{width: 181px; height: 175px; position: absolute; left: 50%; top: 40%; margin: -88px 0 0 -90px;}
+.centerShowImg>p{position: absolute; left: 44px; bottom: 166px; width: 252px; color: #999999; text-align: center;}
+.centerShowImg>p>a{color:#ff7ea5;}
+.centerRight .rightTitle{ height: 28px; border-bottom: 1px solid #DFDFDF;}
+.rightTitle .rtitleleft{ width: 89px; height: 100%; border-right: 1px solid #DFDFDF;} 
+.rtitleleft p{ line-height: 28px; margin:0px 9px 0 9px;}
+.rtitleleft a{width: 9px; height: 9px; margin-top: 10px; background: url(../img/imIcon.png) no-repeat;}
+.centerRight #ltjlBox{ height: 462px; padding: 15px; overflow: auto;}
+.ltjlBottom{height:29px;background-color: #f0f0f0}
+.ltjlBottom .ltjlArray{margin: 8px 5px 0 0;}
+.ltjlArray a{ float:left; height: 15px; margin-right: 10px; background: url(../img/imIcon.png) no-repeat;}
+.ltjlArray .ltjlA1{width: 11px;  background-position: 0px -34px;}
+.ltjlArray .ltjlA2{width: 7px; background-position: -24px -34px;}
+.ltjlArray .ltjlA3{width: 7px; background-position: -49px -34px;}
+.ltjlArray .ltjlA4{width: 11px; background-position: -72px -34px;}
+ 
+/*消息正文Css*/
+.rightMessage,.leftMessage{ margin: 15px 0; overflow: hidden; color: #333333;}
+.rightMessage .timeMessage,.leftMessage .timeMessage{ width: 100%; height: 15px; line-height: 15px; font-size: 12px; text-align: center; color: #666666;}
+.rightMessage .centerMessage{overflow: hidden;margin-right: 12px; position: relative;}
+.rightMessage .centerMessage i,.leftMessage .centerMessage i{ width: 32px; height: 32px; border-radius: 50%; overflow: hidden;}
+.rightMessage .centerMessage i>img,.leftMessage .centerMessage i>img{width: 100%; height: 100%; display: block;} 
+.rightMessage .messageBodyRight{min-height:26px; line-height:26px;min-width: 30px; max-width: 380px; margin: 15px 8px 0 0; padding: 6px 14px; border-radius: 19px 0px 19px 19px; background-color: #feeaf0;}
+.rightMessage .nameMessage{ position: absolute; width: 90px; height: 18px; right: 40px; top: -3px; overflow: hidden; font-size: 12px; text-align: right;}
+
+.leftMessage .centerMessage{overflow: hidden;margin-left: 12px; position: relative;}
+.leftMessage .nameMessage{ position: absolute; width: 90px; height: 18px; left: 40px; top: -3px; overflow: hidden; font-size: 12px; text-align: left;}
+.leftMessage .messageBodyRight{min-height:26px; line-height:26px;min-width: 30px; max-width: 380px; margin: 15px 0 0 8px; padding: 6px 14px; border-radius:0px 19px 19px 19px; background-color: #f2f0f0;}
+
+/*历史记录*/
+#ltjlBox .ltjlW{margin-bottom: 8px;}
+#ltjlBox .ltjlW .nameTimeBlue{overflow: hidden; color: #73a7cf; margin-bottom: 5px;}
+#ltjlBox .ltjlW .nameTimeRed{overflow: hidden; color: #ec95af; margin-bottom: 5px;}
+#ltjlBox .ltjlW span{ font-size: 12px;}
+#ltjlBox .ltjlW .timeW{margin-left: 15px;}
+#ltjlBox .ltjlW .wBody{ text-indent: 20px;}
+/*发送图片弹出窗*/
+#uploadWindow{ width: 500px; height: 250px; border: 1px solid #DFDFDF; position: absolute; left: 50%; top:50%; margin: -125px 0 0 -250px; background-color:#ffffff;z-index: 999; display:none;}
+#uploadWindow .uploadTitle{ height: 50px; border-bottom:1px solid #dfdfdf ;}
+.uploadTitle p{height: 50px; line-height: 50px; margin-left: 18px; color: #3a97da; font-size: 16px;}
+.uploadTitle a{width: 12px;height: 12px; background: url(../css/icon/close.png) no-repeat; margin: 19px 23px 0 0;}
+.uploadCenter{height: 200px;position: relative;}
+.uploadCenter form{position: absolute; top: 80px; left: 80px;}
+.imgW,.imgH,.sUrl,.oUserId{display:none;}
+#loadMore,.loadMore{display:block; height:38px; line-height:38px; height: 38px;text-align: center;font-size: 16px;color: #2786E4;border-top: 1px solid #ccc;}
+.loadColor{color:#cccccc !important;}
+
+#imWindow{ width: 600px;height: 600px; background: url(../css/icon/01.jpg) no-repeat; margin:0 auto;}
+#imWindow .imImg{width: 178px;height: 166px;overflow: hidden; margin: 0 auto; padding-top: 170px; margin-bottom: 32px;}
+.imImg img{ width: 100%; height: 100%;}
+#imWindow .showTitle{width: 280px;font-size: 18px; color: #555555; margin: 0 auto;}
+
+
